@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        EC2_IP = "YOUR_EC2_PUBLIC_IP"
+        EC2_IP = 13.233.83.120
     }
 
     stages {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/yourusername/static-website.git'
+                git 'https://github.com/AbhishekNS2004/pipe.git'
             }
         }
 
